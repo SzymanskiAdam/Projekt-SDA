@@ -1,0 +1,356 @@
+Podsumowanie,Klucz zgłoszenia,Id. zgłoszenia,Nadrzędny id.,Typ zgłoszenia,Status,Klucz projektu,Nazwa projektu,Typ projektu,Lider projektu,Id lidera projektu,Opis projektu,Priorytet,Rozwiązanie,Osoba przypisana,ID osoby przypisanej,Osoba zgłaszająca,ID osoby zgłaszającej,Twórca,ID twórcy,Utworzono,Zaktualizowano,Ostatnio wyświetlane,Rozwiązane,Termin,Głosy,Etykiety,Opis,Środowisko,Obserwujący,ID obserwujących,Pierwotne oszacowanie,Pozostały koszt,Czas poświęcony,Stosunek pracy,Σ Pierwotne oszacowanie,Σ Pozostały koszt,Σ Czas poświęcony,Poziom zabezpieczeń,Wewnętrzne łącze zgłoszenia (Blocks),Wewnętrzne łącze zgłoszenia (Blocks),Wewnętrzne łącze zgłoszenia (Blocks),Zewnętrzne łącze do zgłoszenia (Blocks),Załącznik,Pole niestandardowe (Actual end),Pole niestandardowe (Actual start),Pole niestandardowe (Atlas project key),Pole niestandardowe (Atlas project status),Pole niestandardowe (Change reason),Pole niestandardowe (Change risk),Pole niestandardowe (Change type),Pole niestandardowe (Compass),Pole niestandardowe (Development),Pole niestandardowe (Epic Color),Pole niestandardowe (Epic Name),Pole niestandardowe (Epic Status),Pole niestandardowe (Impact),Pole niestandardowe (Issue color),Pole niestandardowe (Otwarte formularze),Pole niestandardowe (Przesłane formularze),Pole niestandardowe (Rank),Pole niestandardowe (Request Type),Pole niestandardowe (Start date),Pole niestandardowe (Story Points),Pole niestandardowe (Story point estimate),Pole niestandardowe (Target end),Pole niestandardowe (Target start),Pole niestandardowe (Team),Pole niestandardowe (Zablokowane formularze),Pole niestandardowe ([CHART] Date of First Response),Pole niestandardowe (Łączna liczba formularzy),Komentarz,Kategoria statusu,Nadrzędny,Parent summary
+Weryfikacja pola Nazwisko - znaki specjalne i cyfry.,PKJ4-196,11034,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 5:04 PM,25/wrz/23 5:04 PM,25/wrz/23 5:37 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu : 
+
+!image-20230925-170218.png|width=713,height=258!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-195,25/wrz/23 5:04 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-170218.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10069,,,,,,,,,,,,,,,,,0|i006dr:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.6 Weryfikacja pola Nazwisko - znaki specjalne i cyfry.,PKJ4-195,11033,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 4:59 PM,25/wrz/23 5:04 PM,25/wrz/23 4:59 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-196,,,,,,,,,,,,,,,,,,,,,0|i006dj:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Prezentacja pola Imię - Weryfikacja obecności czerwonego podświetlenia obramowania pola - niepoprawny zapis,PKJ4-194,11032,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:57 PM,25/wrz/23 2:57 PM,25/wrz/23 4:51 PM,,25/wrz/23 12:00 AM,0,,"Stan faktyczny : Po wprowadzeniu spacji  w polu “Nazwisko” ramka pola ""Nazwisko"" nie jest podświetlone na czerwono, a pole ""E-mail"" jest aktywne (pole nie jest szare) 
+
+Oczekiwany rezultat : Po wprowadzeniu spacji  w polu “Nazwisko” ramka pola ""Nazwisko"" będzie podświetlona na czerwono, a pole ""E-mail"" nadal nie będzie aktywne (pole będzie szare) 
+
+Kroki wykonano wg założeń
+
+Zrzut ekranu : 
+
+!image-20230925-145329.png|width=710,height=234!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-193,25/wrz/23 2:57 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-145329.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10068,,,,,,,,,,,,,,,,,0|i006db:,,,,,,,,,,,,Do zrobienia,,
+PT 2.3.6 Prezentacja pola Imię - Weryfikacja obecności czerwonego poświetlenia obramowania pola - niepoprawny zapis,PKJ4-193,11031,11024,Przypadek testowy,TO BE CORRECT,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:50 PM,25/wrz/23 2:58 PM,25/wrz/23 4:16 PM,,25/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-194,,,,,,,,,,,,,,,,,,,,,0|i006d3:,,,,,,,,,,,,Do zrobienia,11024,ST 2.3 Prezentacja pola Nazwisko
+PT 2.3.5 Prezentacja pola Nazwisko - Prezentacja pola Nazwisko - Weryfikacja obecności białego podświetlenia obramowania pola - poprawny zapis,PKJ4-192,11030,11024,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:42 PM,25/wrz/23 2:49 PM,25/wrz/23 4:16 PM,,25/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 2:49 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-144608.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10067,,,,,,,,,,,,,,,,,0|i006cv:,,,,,,,,,,,"25/wrz/23 2:49 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Stan faktyczny : Po wprowadzeniu poprawnych danych ramka pola “Nazwisko” jest podświetlone na biało przez półtorej sekundy, a pole ""E-mail"" jest aktywne (tło pola będzie białe)
+
+Oczekiwany rezultat : Po wprowadzeniu poprawnych danych ramka pola “Nazwisko” będzie podświetlona na biało przez półtorej sekundy, a pole ""E-mail"" stanie się aktywne (tło pola będzie białe)
+
+Wykonano kroki wg. założeń
+
+Środowisko : Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81
+
+Zrzut ekranu : 
+
+!image-20230925-144608.png|width=714,height=237!",Gotowe,11024,ST 2.3 Prezentacja pola Nazwisko
+Prezentacja pola Nazwisko - Weryfikacja obecności czerwonej gwiazdki przy polu Nazwisko,PKJ4-191,11029,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:41 PM,25/wrz/23 2:41 PM,25/wrz/23 2:41 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny : Pole Nazwisko nie jest oznaczone czerwoną gwiazdką
+
+Oczekiwany rezultat : Pole Nazwisko jest oznaczone czerwoną gwiazdką
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-143840.png|width=707,height=239!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-190,25/wrz/23 2:41 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-143840.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10066,,,,,,,,,,,,,,,,,0|i006cn:,,,,,,,,,,,,Do zrobienia,,
+PT 2.3.4 Prezentacja pola Nazwisko - Weryfikacja obecności czerwonej gwiazdki przy polu Nazwisko,PKJ4-190,11028,11024,Przypadek testowy,WAIT4ANALYST,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:29 PM,25/wrz/23 2:41 PM,25/wrz/23 2:37 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-191,,,,,,,,,,,,,,,,,,,,,0|i006cf:,,,,,,,,,,,,Do zrobienia,11024,ST 2.3 Prezentacja pola Nazwisko
+PT 2.3.3 Prezentacja pola Nazwisko - Weryfikacja możliwości uzupełnienia pola Nazwisko jako pierwszego w kolejności,PKJ4-189,11027,11024,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:27 PM,25/wrz/23 2:35 PM,25/wrz/23 2:30 PM,,,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 2:35 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-143217.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10065,,,,,,,,,,,,,,,,,0|i006c7:,,,,,,,,,,,"25/wrz/23 2:35 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Stan faktyczny : W polu nie pojawił się wpisywany ciąg liter bez poprawnego wypełnienia poprzednich pól. Pole jest nieedytowalne
+
+Oczekiwany rezultat : W polu nie pojawił się wpisywany ciąg liter bez poprawnego wypełnienia poprzednich pól. Pole jest nieedytowalne
+
+Wykonano kroki wg. założeń
+
+Środowisko : 
+
+|Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81|
+
+Zrzut ekranu :
+
+!image-20230925-143217.png|width=707,height=239!",Do zrobienia,11024,ST 2.3 Prezentacja pola Nazwisko
+PT 2.3.2 Prezentacja pola Nazwisko - Weryfikacja wyświetlania pola Nazwisko (2) po polu Imię (1),PKJ4-188,11026,11024,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:22 PM,25/wrz/23 2:26 PM,25/wrz/23 2:30 PM,,25/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 2:26 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-142600.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10064,,,,,,,,,,,,,,,,,0|i006bz:,,,,,,,,,,,"25/wrz/23 2:26 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Faktyczny stan : Pole ""Nazwisko"" jest polem nr 2 formularza i następuje po polu ""Imię"" oraz występuje przed polem ""E-mail"" (pole nr 3)
+
+Oczekiwany rezultat : Pole ""Nazwisko"" jest polem nr 2 formularza i następuje po polu ""Imię"" oraz występuje przed polem ""E-mail"" (pole nr 3)
+
+Środowisko : Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu : 
+
+!image-20230925-142600.png|width=707,height=239!",Do zrobienia,11024,ST 2.3 Prezentacja pola Nazwisko
+PT 2.3.1 Prezentacja pola Nazwisko - Weryfikacja istnienia pola Nazwisko,PKJ4-187,11025,11024,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 2:03 PM,25/wrz/23 2:20 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 2:20 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-141714.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10063,,,,,,,,,,,,,,,,,0|i006br:,,,,,,,,,,,"25/wrz/23 2:20 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Faktyczny status : Pole “Nazwisko” zostało odnalezione.
+
+Oczekiwany rezultat : Odnalezienie pola “Nazwisko”. Jest to drugie pole formularza. Znajduje się po polu ""Imię"" i jest przed polem ""E-mail""
+
+Środowisko : Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-141714.png|width=721,height=185!",Gotowe,11024,ST 2.3 Prezentacja pola Nazwisko
+ST 2.3 Prezentacja pola Nazwisko,PKJ4-186,11024,,Scenariusz testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 1:56 PM,25/wrz/23 2:26 PM,25/wrz/23 2:58 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-134,,,,,,,,,,,,,,,,,,0|i006bj:,,,,,,,,,,,,Do zrobienia,,
+Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 1 znak,PKJ4-185,11023,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 1:44 PM,25/wrz/23 1:44 PM,25/wrz/23 4:31 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny status : Pojawił się komunikat o za małej ilości wpisanych znaków (1 x litera “a”), a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o za małej ilości wpisanych znaków (1 x litera “a”), a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-134135.png|width=702,height=197!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-184,25/wrz/23 1:44 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-134135.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10062,,,,,,,,,,,,,,,,,0|i006bb:,,,,,,,,,,,,Do zrobienia,,
+PT 2.2.7 Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 1 znak,PKJ4-184,11022,11013,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 1:22 PM,25/wrz/23 1:44 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-185,,,,,,,,,,,,,,,,,,,,,0|i006b3:,,,,,,,,,,,,Do zrobienia,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 51 znaki,PKJ4-183,11021,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 1:19 PM,25/wrz/23 1:20 PM,25/wrz/23 4:31 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny stan : Pojawił się komunikat o przekroczeniu limitów ilości wpisanych znaków (litera “a” wpisana 51 razy, a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" nie jest koloru szarego i jest aktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o przekroczeniu limitów ilości wpisanych znaków  (litera “a” wpisana 51 razy, a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-131527.png|width=706,height=236!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-182,25/wrz/23 1:19 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-131527.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10061,,,,,,,,,,,,,,,,,0|i006av:,,,,,,,,,,,,Do zrobienia,,
+PT 2.2.6 Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 51 znaki,PKJ4-182,11020,11013,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 1:12 PM,25/wrz/23 1:19 PM,25/wrz/23 5:40 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-183,,,,,,,,,,,,,,,,,,,,,0|i006an:,,,,,,,,,,,,Do zrobienia,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 2 znaki,PKJ4-181,11019,,Błąd w programie,WAIT4CODE,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 1:03 PM,25/wrz/23 1:09 PM,25/wrz/23 5:08 PM,,25/wrz/23 12:00 AM,0,,"Stan faktyczny : Pojawił się komunikat o za małej ilości wpisanych znaków, a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o za małej ilości wpisanych znaków, a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-130107.png|width=707,height=255!","Środowisko : Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-180,25/wrz/23 1:03 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-130107.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10060,,,,,,,,,,,,,,,,,0|i006af:,,,,,,,,,,,,Do zrobienia,,
+PT 2.2.5 Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 2 znaki,PKJ4-180,11018,11013,Przypadek testowy,TO BE CORRECT,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:58 PM,25/wrz/23 1:08 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-181,,,,,,,,,,,,,,,,,,,,,0|i006a7:,,,,,,,,,,,,Do zrobienia,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+PT 2.2.4 Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 50 znaki,PKJ4-179,11017,11013,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:50 PM,25/wrz/23 2:09 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 12:55 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-125223.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10059,,,,,,,,,,,,,,,,,0|i0069z:,,,,,,,,,,,"25/wrz/23 12:55 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Faktyczny stan : Ramka pola ""Nazwisko"" jest podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zawiera treść: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. Pole ""E-mail"" jest aktywne (tło jest białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zawierać treść: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa. Pole ""E-mail"" powinno być aktywne (tło pola powinno być białe).
+
+Środowisko : Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-125223.png|width=707,height=234!",Gotowe,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+PT 2.2.3 Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 49 znaki,PKJ4-178,11016,11013,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:45 PM,25/wrz/23 12:48 PM,25/wrz/23 5:40 PM,,25/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0069r:,,,,,,,,,,,,Gotowe,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+PT 2.2.2 Weryfikacja pola Nazwisko -  ilość wstawionych znaków - 4 znaki,PKJ4-177,11015,11013,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:37 PM,25/wrz/23 12:44 PM,25/wrz/23 5:40 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 12:41 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-123900.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10058,,,,,,,,,,,,,,,,,0|i0069j:,,,,,,,,,,,"25/wrz/23 12:41 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Faktyczny stan : Ramka pola ""Nazwisko"" jest podświetlone na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zawiera treść: Maki. Pole ""E-mail"" jest aktywne (tło pola jest białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zawierać treść: Maki. Pole ""E-mail"" powinno być aktywne (tło pola powinno być białe).
+
+Środowisko : 
+
+|Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81|
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-123900.png|width=707,height=235!",Gotowe,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+PT 2.2.1 Wpisanie trzech znaków,PKJ4-176,11014,11013,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:27 PM,25/wrz/23 12:43 PM,25/wrz/23 5:40 PM,,25/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 12:34 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-123228.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10057,,,,,,,,,,,,,,,,,0|i0069b:,,,,,,,,,,,"25/wrz/23 12:34 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Stan faktyczny : Ramka pola ""Nazwisko"" jest podświetlone na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zawiera treść: Mak. Pole ""E-mail"" jest aktywne (tło pola jest białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zawierać treść: Mak. Pole ""E-mail"" powinno być aktywne (tło pola powinno być białe).
+
+Wykonano kroki wg. założeń
+
+Środowisko : 
+
+|Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81|
+
+Zrzut ekranu :
+
+!image-20230925-123228.png|width=713,height=238!",Gotowe,11013,ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko
+ST 2.2 Ilość przyjmowanych znaków przez pole nazwisko,PKJ4-175,11013,,Scenariusz testowy,FAILED,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:26 PM,25/wrz/23 2:09 PM,25/wrz/23 2:10 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-134,,,,,,,,,,,,,,,,,,0|i00693:,,,,,,,,,,,,W toku,,
+PT 2.1.22 Weryfikacja pola Nazwisko -  wpisanie tekstu zawierającego polskie znaki diakrytyczne,PKJ4-174,11012,10973,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:15 PM,25/wrz/23 12:23 PM,25/wrz/23 5:40 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,25/wrz/23 12:22 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-121757.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10056,,,,,,,,,,,,,,,,,0|i0068v:,,,,,,,,,,,"25/wrz/23 12:22 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Faktyczny stan : Ramka pola ""Nazwisko"" jest podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zawiera treść: LaceZzsno, po wpisaniu : ŁąćęŻźśńó.  Polskie znaki diakrytyczne zostały zamienione na znaki z alfabetu łacińskiego. Pole ""E-mail"" jest aktywne (tło pola jest białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zawierać treść: LaceZzsno, po wpisaniu : ŁąćęŻźśńó.  Polskie znaki diakrytyczne powinny być zamienione na znaki z alfabetu łacińskiego. Pole ""E-mail"" powinno być aktywne (tło pola powinno być białe).
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-121757.png|width=710,height=240!",Gotowe,10973,ST 2.1 Sposób zapisu pola Nazwisko
+"Weryfikacja pola Nazwisko- wpisanie dwóch imion, oba napisane z małej litery oddzielone spacją (Kowalska-Nowaczyk)",PKJ4-173,11011,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:11 PM,25/wrz/23 12:13 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230925-120730.png|width=712,height=197!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-172,25/wrz/23 12:11 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-120730.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10055,,,,,,,,,,,,,,,,,0|i0068n:,,,,,,,,,,,,Do zrobienia,,
+"PT 2.1.21 Weryfikacja pola Nazwisko- wpisanie dwóch imion, oba napisane z małej litery oddzielone spacją (Kowalska-Nowaczyk)",PKJ4-172,11010,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:04 PM,25/wrz/23 12:13 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-173,,,,,,,,,,,,,,,,,,,,,0|i0068f:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+"Weryfikacja pola Nazwisko -  wpisanie dwóch nazwisk, oba napisane z małej litery oddzielone spacją (kowalska nowaczyk)",PKJ4-171,11009,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 12:00 PM,25/wrz/23 4:18 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny : Pojawł się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu:
+
+!image-20230925-115613.png|width=706,height=203!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-170,25/wrz/23 12:00 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230925-115613.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10054,,,,,,,,,,,,,,,,,0|i00687:,,,,,,,,,,,,Do zrobienia,,
+"PT 2.1.20 Weryfikacja pola Nazwisko- wpisanie dwóch imion, oba napisane z małej litery oddzielone spacją (kowalska nowak)",PKJ4-170,11008,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,25/wrz/23 11:51 AM,25/wrz/23 12:00 PM,25/wrz/23 4:17 PM,,25/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-171,,,,,,,,,,,,,,,,,,,,,0|i0067z:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+"Weryfikacja pola Nazwisko -   wpisanie dwóch nazwisk, oba nazwiska pisane z małej litery nieoddzielone spacją (kowalskanowaczyk)",PKJ4-169,11007,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 1:13 PM,25/wrz/23 10:13 AM,25/wrz/23 4:30 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny status : Ramka pola ""Nazwisko"" jest podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zawiera dwa słowa: kowalskanowaczyk. Pole ""E-mail"" jest aktywne, a jego tło jest białe.
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zawierać dwa słowa: Kowalskanowaczyk. Pole ""E-mail"" powinno być aktywne, a jego tło powinno zrobić się białe.
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-131052.png|width=709,height=236!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-168,22/wrz/23 1:13 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-131052.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10053,,,,,,,,,,,,,,,,,0|i0067r:,,,,,,,,,,,,Do zrobienia,,
+"PT 2.1.19 Weryfikacja pola Nazwisko -   wpisanie dwóch nazwisk, oba nazwiska pisane z małej litery nieoddzielone spacją (kowalskanowaczyk)",PKJ4-168,11006,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 1:07 PM,22/wrz/23 1:13 PM,25/wrz/23 4:18 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-169,,,,,,,,,,,,,,,,,,,,,0|i0067j:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko -   wpisanie dwóch nazwisk z dużej litery ze spacją pomiędzy jednym a drugim (Kowalska Nowak),PKJ4-167,11005,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 1:05 PM,22/wrz/23 1:05 PM,25/wrz/23 4:18 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny status : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-130212.png|width=724,height=263!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-166,22/wrz/23 1:05 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-130212.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10052,,,,,,,,,,,,,,,,,0|i0067b:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.18 Weryfikacja pola Nazwisko -   wpisanie dwóch nazwisk z dużej litery ze spacją pomiędzy jednym a drugim (Kowalska Nowak),PKJ4-166,11004,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 1:00 PM,22/wrz/23 1:05 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-167,,,,,,,,,,,,,,,,,,,,,0|i00673:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+"PT 2.1.17 Weryfikacja pola Nazwisko -  wpisanie dwóch nazwisk w prawidłowy sposób, oba nazwiska pisane dużą literą bez spacji (KowalskaNowak)",PKJ4-165,11003,10973,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:51 PM,22/wrz/23 12:57 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny status : Ramka pola ""Nazwisko"" jest podświetlone na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zawiera dwa słowa: KowalskaNowaczyk. Pole ""E-mail"" jest aktywne, a jego tło jest białe.
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zawierać dwa słowa: KowalskaNowaczyk. Pole ""E-mail"" powinno być aktywne, a jego tło powinno zrobić się białe.
+
+Środowisko :
+
+ Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-125441.png|width=713,height=239!",,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,22/wrz/23 12:57 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-125441.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10051,,,,,,,,,,,,,,,,,0|i0066v:,,,,,,,,,,,,Gotowe,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - Wpisanie spacji w środku wpisanego wyrazu,PKJ4-164,11002,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:49 PM,22/wrz/23 12:49 PM,25/wrz/23 4:18 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny stan : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-124732.png|width=712,height=257!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-163,22/wrz/23 12:49 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-124732.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10050,,,,,,,,,,,,,,,,,0|i0066n:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.16 Weryfikacja pola Nazwisko - Wpisanie spacji w środku wpisanego wyrazu,PKJ4-163,11001,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:45 PM,22/wrz/23 12:49 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-164,,,,,,,,,,,,,,,,,,,,,0|i0066f:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - Zastosowanie spacji po wpisaniu liter,PKJ4-162,11000,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:43 PM,22/wrz/23 12:43 PM,25/wrz/23 4:18 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny status : Pojawł się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-124057.png|width=710,height=255!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-161,22/wrz/23 12:43 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-124057.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10049,,,,,,,,,,,,,,,,,0|i00667:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.15 Weryfikacja pola Nazwisko - Zastosowanie spacji po wpisaniu liter,PKJ4-161,10999,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:38 PM,22/wrz/23 12:43 PM,25/wrz/23 4:18 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-162,,,,,,,,,,,,,,,,,,,,,0|i0065z:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - Zastosowanie spacji przed wpisaniem liter,PKJ4-160,10998,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:37 PM,25/wrz/23 4:18 PM,25/wrz/23 4:18 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny status : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-123520.png|width=710,height=254!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-159,22/wrz/23 12:37 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-123520.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10048,,,,,,,,,,,,,,,,,0|i0065r:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.14 Weryfikacja pola Nazwisko - Zastosowanie spacji przed wpisaniem liter,PKJ4-159,10997,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:31 PM,22/wrz/23 12:37 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-160,,,,,,,,,,,,,,,,,,,,,0|i0065j:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+PT 2.1.13 Weryfikacja pola Nazwisko - skopiowanie tekstu napisanego białą czcionką,PKJ4-158,10996,10973,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:16 PM,22/wrz/23 12:29 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny stan : Ramka pola ""Nazwisko"" jest podświetlone na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zaczyna się z dużej litery, reszta liter jest mała. Pole ""E-mail"" jest aktywne (tło powinno jest białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zaczynać się z dużej litery, reszta liter powinna być mała. Pole ""E-mail"" powinno być aktywne (tło powinno być białe).
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu :
+
+!image-20230922-122125.png|width=713,height=243!",,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,22/wrz/23 12:25 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-122125.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10047,,,,,,,,,,,,,,,,,0|i0065b:,,,,,,,,,,,,Gotowe,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - wpisanie całego tekstu z małej litery,PKJ4-157,10995,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:09 PM,22/wrz/23 12:09 PM,25/wrz/23 4:30 PM,,22/wrz/23 12:00 AM,0,,"Faktyczny stan : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zaczyna się z małej litery tak jak był wprowadzony, reszta liter pozostała mała “kowalska”. Pole ""E-mail"" powinno być aktywne (tło powinno być białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zaczynać się z dużej litery, reszta liter powinna być mała “Kowalska”. Pole ""E-mail"" jest aktywne (tło powinno być białe).
+
+Wykonano kroki wg założeń
+
+Zrzut ekranu : 
+
+!image-20230922-120554.png|width=710,height=234!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-156,22/wrz/23 12:09 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-120554.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10046,,,,,,,,,,,,,,,,,0|i00653:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.12 Weryfikacja pola Nazwisko - wpisanie całego tekstu z małej litery,PKJ4-156,10994,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:01 PM,22/wrz/23 12:17 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-157,,,,,,,,,,,,,,,,,,,,,0|i0064v:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - druga litera duża,PKJ4-155,10993,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 12:00 PM,22/wrz/23 12:17 PM,25/wrz/23 4:30 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny stan : Ramka pola ""Nazwisko"" jest podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zaczynał się z od małej i drugiej dużej litery, reszta liter powinna być mała. Wyświetlany teks był taki sam jak wpisany. Pole ""E-mail"" powinno być aktywne (białe tło).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zaczynać się z od małej i drugiej dużej litery, reszta liter powinna być mała. Wyświetlany tekst powinien być Owalska. Pole ""E-mail"" powinno być aktywne (białe tło).
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu : 
+
+!image-20230922-115339.png|width=711,height=233!","|Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81|",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-154,22/wrz/23 12:00 PM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-115339.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10045,,,,,,,,,,,,,,,,,0|i0064n:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.11 Weryfikacja pola Nazwisko - pierwsza litera duża,PKJ4-154,10992,10973,Przypadek testowy,FAILED,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:49 AM,22/wrz/23 12:29 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-155,,,,,,,,,,,,,,,,,,,,,0|i0064f:,,,,,,,,,,,,W toku,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - litery wpisane z Caps Lock,PKJ4-153,10991,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:46 AM,22/wrz/23 11:46 AM,25/wrz/23 4:27 PM,,22/wrz/23 12:00 AM,0,,"Stan faktyczny : Ramka pola ""Nazwisko"" jest podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" zaczyna się z dużej litery, reszta liter pozostała dużymi. Pole ""E-mail"" powinno być aktywne (tło powinno być białe).
+
+Oczekiwany rezultat : Ramka pola ""Nazwisko"" będzie podświetlona na biało przez półtorej sekundy, a tekst wpisany w pole ""Nazwisko"" powinien zaczynać się z dużej litery, reszta liter powinna być mała. Pole ""E-mail"" powinno być aktywne (tło powinno być białe).
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu :
+
+!image-20230922-114305.png|width=712,height=241!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-152,22/wrz/23 11:46 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-114305.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10044,,,,,,,,,,,,,,,,,0|i00647:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.10 Weryfikacja pola Nazwisko - litery wpisane z Caps Lock,PKJ4-152,10990,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:39 AM,22/wrz/23 12:18 PM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-153,,,,,,,,,,,,,,,,,,,,,0|i0063z:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - w polu wstawiona spacja.,PKJ4-151,10989,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:37 AM,25/wrz/23 4:19 PM,25/wrz/23 4:19 PM,,,0,,"Faktyczny stan : Nie pojawił się komunikat o tym, że pole jest puste a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" nie jest koloru szarego i jest aktywne
+
+Oczekiwany rezultat : Pojawi się komunikat o tym, że pole jest puste a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu :
+
+!image-20230922-113722.png|width=710,height=237!",,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-150,22/wrz/23 11:37 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-113722.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10043,,,,,,,,,,,,,,,,,0|i0063r:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.9 Weryfikacja pola Nazwisko - w polu wstawiona spacja.,PKJ4-150,10988,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:32 AM,22/wrz/23 11:37 AM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-151,,,,,,,,,,,,,,,,,,,,,0|i0063j:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - puste pole.,PKJ4-149,10987,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:25 AM,22/wrz/23 11:25 AM,25/wrz/23 4:19 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny : Nie pojawił się komunikat o tym, że pole jest puste a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" nie jest koloru szarego i jest aktywne
+
+Wykonano kroki wg. założeń.
+
+Zrzut ekranu :
+
+!image-20230922-112313.png|width=722,height=236!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-148,22/wrz/23 11:25 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-112313.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10042,,,,,,,,,,,,,,,,,0|i0063b:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.8 Weryfikacja pola Nazwisko - puste pole.,PKJ4-148,10986,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:20 AM,22/wrz/23 11:25 AM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-149,,,,,,,,,,,,,,,,,,,,,0|i00633:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - litery i znaki interpunkcyjne,PKJ4-147,10985,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:18 AM,22/wrz/23 11:18 AM,25/wrz/23 4:19 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny :  Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne
+
+Oczekiwany resultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne
+
+Wykonano kroki wg. założeń.
+
+Zrzut ekranu :
+
+!image-20230922-111539.png|width=709,height=258!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-146,22/wrz/23 11:18 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-111539.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10041,,,,,,,,,,,,,,,,,0|i0062v:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.7 Weryfikacja pola Nazwisko - litery i znaki interpunkcyjne,PKJ4-146,10984,10973,Przypadek testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:13 AM,22/wrz/23 11:18 AM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-147,,,,,,,,,,,,,,,,,,,,,0|i0062n:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - litery i znaki specjalne.,PKJ4-145,10983,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:09 AM,22/wrz/23 11:09 AM,25/wrz/23 4:19 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Stan faktyczny : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie jest koloru czerwonego. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń.
+
+Zrzut ekranu :
+
+!image-20230922-110650.png|width=711,height=254!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-144,22/wrz/23 11:09 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-110650.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10040,,,,,,,,,,,,,,,,,0|i0062f:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.5 Weryfikacja pola Nazwisko - litery i znaki specjalne.,PKJ4-144,10982,10973,Przypadek testowy,TO BE CORRECT,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 11:00 AM,22/wrz/23 12:57 PM,25/wrz/23 4:58 PM,,22/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-145,,,,,,,,,,,,,,,,,,,,,0|i00627:,,,,,,,,,,,,Do zrobienia,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - znaki specjalne.,PKJ4-143,10981,,Błąd w programie,ANALYZED,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 10:49 AM,22/wrz/23 10:58 AM,25/wrz/23 5:09 PM,,22/wrz/23 12:00 AM,0,,"Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Faktyczny stan : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie zmieniła koloru na czerwony. Pole ""E-mail"" jest koloru szarego i jest nieaktywne
+
+Zrzut ekranu : 
+
+!image-20230922-104631.png|width=710,height=255!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-141,22/wrz/23 10:49 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-104631.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10038,,,,,,,,,,,,,,,,,0|i0061z:,,,,,,,,,,,,W toku,,
+Błędne zgłoszenie,PKJ4-142,10980,,Błąd w programie,ANALYZED,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Lowest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 10:38 AM,25/wrz/23 4:50 PM,25/wrz/23 4:50 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne
+
+Faktyczny stan : Pojawił się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" nie zmieniła koloru na czerwony. Pole ""E-mail"" nie jest koloru szarego i jest aktywne.
+
+Wykonano kroki wg. założeń
+
+Zrzut ekranu:
+
+!image-20230922-103812.png|width=716,height=261!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,22/wrz/23 10:38 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-103812.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10036,,,,,,,,,,,,,,,,,0|i0061r:,,,,,,,,,,,,W toku,,
+PT 2.1.4 Weryfikacja pola Nazwisko - znaki specjalne,PKJ4-141,10979,10973,Przypadek testowy,FAILED,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 10:21 AM,22/wrz/23 10:57 AM,25/wrz/23 4:19 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-143,,,,,,,,,,,,,,,,,,,,,0|i0061j:,,,,,,,,,,,,W toku,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - litery i cyfry,PKJ4-140,10978,,Błąd w programie,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 10:15 AM,25/wrz/23 4:20 PM,25/wrz/23 4:19 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny stan : Przy próbie wprowadzenia liter i cyfr pojawia się komunikat o próbie użycia niedozwolonego znaku, ramka “Nazwisko” nie zmienia koloru na czerwony. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat : Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola  ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń.
+
+Zrzut ekranu:
+
+!image-20230922-104202.png|width=711,height=205!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-139,22/wrz/23 10:42 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-104202.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10037,,,,,,,,,,,,,,,,,0|i0061b:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.3 Weryfikacja pola Nazwisko - litery i cyfry,PKJ4-139,10977,10973,Przypadek testowy,FIXING,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 9:54 AM,22/wrz/23 10:58 AM,25/wrz/23 4:19 PM,,22/wrz/23 12:00 AM,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-140,,,,,,,,,,,,,,,,,,,,,0|i00613:,,,,,,,,,,,,W toku,10973,ST 2.1 Sposób zapisu pola Nazwisko
+Weryfikacja pola Nazwisko - tylko cyfry. ,PKJ4-138,10976,,Błąd w programie,WAIT4CODE,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 9:51 AM,22/wrz/23 10:56 AM,25/wrz/23 5:09 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,"Faktyczny stan : Przy próbie wprowadzenia cyfr pojawia się komunikat o próbie użycia niedozwolonego znaku, ramka “Nazwisko” nie zmienia koloru na czerwony. Pole ""E-mail"" jest koloru szarego i jest nieaktywne.
+
+Oczekiwany rezultat: Pojawi się komunikat o próbie użycia niedozwolonego znaku a ramka pola ""Nazwisko"" będzie koloru czerwonego. Pole ""E-mail"" będzie koloru szarego i będzie nieaktywne.
+
+Wykonano kroki wg. założeń.
+
+Zrzut ekranu:
+
+!image-20230922-105556.png|width=727,height=204!","Windows 10 Pro 22H2, MS EDGE, Wersja 116.0.1938.81",Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-137,22/wrz/23 10:56 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;image-20230922-105556.png;https://ittestpr.atlassian.net/rest/api/3/attachment/content/10039,,,,,,,,,,,,,,,,,0|i0060v:,,,,,,,,,,,,Do zrobienia,,
+PT 2.1.2 Weryfikacja pola Nazwisko - tylko cyfry. ,PKJ4-137,10975,10973,Przypadek testowy,FIXING,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 9:15 AM,22/wrz/23 10:58 AM,25/wrz/23 2:07 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-138,,,,,,,,,,,,,,,,,,,,,0|i0060n:,,,,,,,,,,,,W toku,10973,ST 2.1 Sposób zapisu pola Nazwisko
+PT 2.1.1 Weryfikacja pola Nazwisko - tylko litery. ,PKJ4-136,10974,10973,Przypadek testowy,Accepted,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 9:08 AM,22/wrz/23 10:03 AM,25/wrz/23 5:40 PM,,22/wrz/23 12:00 AM,0,NAZWISKO,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0060f:,,,,,,,,,,,22/wrz/23 9:13 AM;712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c;Rezultat : Przypadek testowy zweryfikowany poprawnie,Gotowe,10973,ST 2.1 Sposób zapisu pola Nazwisko
+ST 2.1 Sposób zapisu pola Nazwisko,PKJ4-135,10973,,Scenariusz testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Highest,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 8:51 AM,25/wrz/23 2:07 PM,25/wrz/23 4:58 PM,,,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,,,,PKJ4-134,,,,,,,,,,,,,,,,,,0|i00607:,,,,,,,,,,,,Do zrobienia,,
+ZT2 Weryfikacja pola Nazwisko w formularzu rejestracyjnym,PKJ4-134,10972,,Zestaw testowy,Otwarty,PKJ4,Pokoj4,software,Justyna Kałek,5e612b46e5a1150cdca30b60,,Medium,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,22/wrz/23 8:48 AM,25/wrz/23 2:07 PM,25/wrz/23 2:28 PM,,,0,,,,Adam Szymański,712020:b6da932b-41f5-49fc-86c9-7fc9eee1cc3c,,,,,,,,,PKJ4-175,PKJ4-186,PKJ4-135,,,,,,,,,,,,,,,,,,,0|i005zz:,,,,,,,,,,,,Do zrobienia,,
