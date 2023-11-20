@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "69d6517a-c14c-4085-a86a-70ad6263818a",
+		"name": "SDA Projekt Końcowy - Trello 20231030",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27746859"
+	},
+	"item": [
+		{
+			"name": "Dodanie nowej tablicy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/boards/?name=Tablica Pierwsza&key={{Key}}&token={{Token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Tablica Pierwsza"
+						},
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usunięcie tablicy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/boards/653fe55df1c639754d2d650a?key={{Key}}&token={{Token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"boards",
+						"653fe55df1c639754d2d650a"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokazywanie wszystkich List w Tablicy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/boards/64c1558c33d4e5596f4bc931/lists?key={{Key}}&token={{Token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"boards",
+						"64c1558c33d4e5596f4bc931",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "desc",
+							"value": "Treść",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zmiana parametrów List w Tablicy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/lists/64c2609762ded8480e4c5c78?key={{Key}}&token={{Token}}&name=New name of the List",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"lists",
+						"64c2609762ded8480e4c5c78"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "New name of the List"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zmiana parametrów Card na List",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/cards/64c254ef3f57aa191c38e45b?key={{Key}}&token={{Token}}&name=Nowa Nazwa",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"cards",
+						"64c254ef3f57aa191c38e45b"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "Nowa Nazwa"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Usunięcie Cards z Listy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/cards/64c254f3fafb7930fe70d5d7?key={{Key}}&token={{Token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"cards",
+						"64c254f3fafb7930fe70d5d7"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Utworzenie Karty w Liście",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lista Cards w Liście",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/lists/64c23995ad2cafe04169d4d9/cards?key={{Key}}&token={{Token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"lists",
+						"64c23995ad2cafe04169d4d9",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Przeniesienie Listy z Tablicy do Tablicy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/lists/64c2398a4f8625f51a2e660e/idBoard?key={{Key}}&token={{Token}}&value=64c23bef41f40b7d7f4bc249",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"lists",
+						"64c2398a4f8625f51a2e660e",
+						"idBoard"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "value",
+							"value": "64c23bef41f40b7d7f4bc249"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Utworzenie nowej Listy w Tablicy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/lists?key={{Key}}&token={{Token}}&name=In Preparation&idBoard=64c1558c33d4e5596f4bc931",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"lists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "name",
+							"value": "In Preparation"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c1558c33d4e5596f4bc931"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Archiwizowanie-Usunięcie wybranej Listy z Tablicy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/lists/64c23bef41f40b7d7f4bc252?key={{Key}}&token={{Token}}&closed=true",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"lists",
+						"64c23bef41f40b7d7f4bc252"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "closed",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista istniejących tablic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/members/me/boards?key={{Key}}&token={{Token}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"members",
+						"me",
+						"boards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{Key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://api.trello.com/1",
+			"type": "string"
+		},
+		{
+			"key": "Key",
+			"value": "3b2559274d3464f33e65da9e2f3013e7",
+			"type": "string"
+		},
+		{
+			"key": "Token",
+			"value": "ATTAcb988d55d0f83c8350aae57f664cd54b9453768adcb1cc9514333ccc97238c079999A8B9",
+			"type": "string"
+		}
+	]
+}
